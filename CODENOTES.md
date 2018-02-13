@@ -2,12 +2,13 @@
 
 > Film kijken: The hitchkers guide to the galaxy
 
-**Modulo**
-22 % 4 = 2
+### Modulo
+    > 22 % 4
+    < 2
 
 Waarom 2? Omdat 4 vijf keer in 22 past en je dan 2 over houdt.
 
-**Functies**
+### Functies
 Alles in javascript met ( ) noem je een functie
 
 
@@ -18,8 +19,8 @@ Console is een object
 
 
 
-**Statements**
-a = b * 2;
+### Statements
+    a = b * 2;
 Een formule/som als deze noem je een __statement__, een __statement__ kan bestaan uit __variables__ (a, b, variable), __operators__ (+ - = * etc) en __literal values__ (1, 2, 3, etc)
 
 * You need __operators__ to perform actions on values.
@@ -30,7 +31,7 @@ Een formule/som als deze noem je een __statement__, een __statement__ kan bestaa
 * You need __functions__ to organize your code into logical and reusable chunks.
 
 
-**Values & Types**
+### Values & Types
 * string
 * number
 * boolean
