@@ -2,6 +2,8 @@
 
 # Best practices
 
+This is my list of best practices for frontend development. During this project I've chosen 5 of these best practices to keep in mind when I'm writing code. I'll pay extra attention to these best practices to make sure my code is clean and easy to understand.
+
 ## HTML Best Practices
 
 **1. Close your tags**
@@ -92,7 +94,7 @@ Not the other way around. Creating the HTML first allows you to visualize the en
 
 But be aware of them expanding beyond control. Depending on the complexity of the design and the size of the site, sometimes it’s easier to make smaller, multiple stylesheets instead of a giant one. If you cross the line and end up having too many stylesheets it might be hard to follow and find where some styles are.
 
->sada
+>Source: [German Berselli on Belatrixsf](https://www.belatrixsf.com/blog/best-practices-for-front-end-coding/ "German Berselli on Belatrixsf")
 
 # Image Gallery
 
