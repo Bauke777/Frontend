@@ -17,12 +17,12 @@ function Gallery (element) {
 
     for (var i = 0; i < this.images.length; i++) {
         this.images[i].addEventListener('click', function(event){
-            //lightbox.classList.add('active');
             event.preventDefault();
             self.showLightbox(this);
         });
     }
 
+    // addEventListener for lightbox overlay
     this.lightboxOverlay.addEventListener('click', function(event){
         self.closeLightbox();
     });
@@ -39,6 +39,6 @@ Gallery.prototype.closeLightbox = function () {
     this.lightbox.classList.remove('active');
 }
 
-
+// Create new Gallery
 var target = document.querySelector('.gallery');
 var gallery = new Gallery(target);
