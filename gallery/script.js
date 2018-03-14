@@ -1,8 +1,8 @@
 function Gallery (element) {
 
     // Add HTML for the lightbox
-    var popup = '<div class="lightbox"><div class="lightbox__overlay"></div><img class="gallery-item__photo" src=""/></div>';
-    element.innerHTML += popup;
+    var lightboxHTML = '<div class="lightbox"><div class="lightbox__overlay"></div><img class="gallery-item__photo" src=""/></div>';
+    element.innerHTML += lightboxHTML;
     this.lightbox = document.querySelector('.lightbox');
     this.lightboxPhoto = document.querySelector('.lightbox img');
     this.lightboxOverlay = document.querySelector('.lightbox__overlay');
